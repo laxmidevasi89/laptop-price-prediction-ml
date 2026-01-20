@@ -32,31 +32,31 @@ The dataset contains 1020 laptop records with the following key features:
 
 ##  Project Workflow
  *  **Data Loading & Exploration**
-- Checked data types, missing values, and distributions
-* Data Cleaning
-- Dropped irrelevant columns (Name, Rating, index)
-- Filled missing numerical values with median
-- Filled missing categorical values with mode
-- Converted boolean features to numerical format
-* Feature Engineering
--  Created screen resolution feature
-- Calculated screen area (in megapixels)
-- Categorized CPU generations into performance levels (Basic, Good, Strong)
-* Preprocessing
-- One-Hot Encoding for categorical features
-- Standard Scaling for numerical features
--  Used ColumnTransformer and Pipeline
-* Model Building
-- Random Forest Regressor
-- 80–20 train-test split
-* Model Evaluation
-- MAE
-- RMSE
-- R² Score
-- Residual analysis
-- Feature importance visualization
-* Model Saving
-Saved trained model using joblib for deployment
+     - Checked data types, missing values, and distributions
+* **Data Cleaning**
+     - Dropped irrelevant columns (Name, Rating, index)
+    - Filled missing numerical values with median
+     - Filled missing categorical values with mode
+     - Converted boolean features to numerical format
+* **Feature Engineering**
+     -  Created screen resolution feature
+     - Calculated screen area (in megapixels)
+     - Categorized CPU generations into performance levels (Basic, Good, Strong)
+* **Preprocessing**
+     - One-Hot Encoding for categorical features
+     - Standard Scaling for numerical features
+     -  Used ColumnTransformer and Pipeline
+* **Model Building**
+     - Random Forest Regressor
+     - 80–20 train-test split
+* **Model Evaluation**
+     - MAE
+     - RMSE
+     - R² Score
+     - Residual analysis
+     - Feature importance visualization
+* **Model Saving**
+     - Saved trained model using joblib for deployment
 
 ##  Model Performance
 Metric	Value
