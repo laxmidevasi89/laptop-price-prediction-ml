@@ -1,5 +1,5 @@
-Laptop Price Prediction Using Machine Learning
-# Project Overview
+# Laptop Price Prediction Using Machine Learning
+## Project Overview
 This project focuses on building an end-to-end machine learning pipeline to predict laptop prices based on hardware specifications and features.
 It includes data cleaning, feature engineering, preprocessing, model training, evaluation, and model saving using Python and Scikit-learn.
 The goal is to understand key factors influencing laptop prices and build an accurate regression model suitable for real-world deployment.
@@ -24,11 +24,11 @@ The dataset contains 1020 laptop records with the following key features:
 - Programming Language: Python
 - Libraries:
   - **NumPy**
-    - **Pandas**
-      - **Matplotlib**
-      - **Seaborn**
-      -**Scikit-learn**
-      - **Joblib**
+  - **Pandas**
+  - **Matplotlib**
+  - **Seaborn**
+  -**Scikit-learn**
+  - **Joblib**
 
 ##  Project Workflow
  *  Data Loading & Exploration
@@ -66,7 +66,7 @@ R² Score	0.8276
 
  **The model explains ~83% variance in laptop prices**
 
-##Key Insights
+## Key Insights
 - RAM size and type significantly influence laptop prices
 - Processor generation and CPU level are major price drivers
 - Brand and graphics type play a strong role
