@@ -31,7 +31,7 @@ The dataset contains 1020 laptop records with the following key features:
   - **Joblib**
 
 ##  Project Workflow
- *  Data Loading & Exploration
+ *  **Data Loading & Exploration**
 - Checked data types, missing values, and distributions
 * Data Cleaning
 - Dropped irrelevant columns (Name, Rating, index)
