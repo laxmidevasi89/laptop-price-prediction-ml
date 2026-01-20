@@ -86,7 +86,7 @@ R² Score	0.8276
 -  laptop_price_prediction.ipynb
 -  dataset
 - Laptop Data.csv
-- 
+  
 ## How to Run the Project
 - Clone the repository
 git clone https://github.com/your-username/laptop-price-prediction.git
@@ -97,7 +97,5 @@ pip install -r requirements.txt
 ## Future Improvements
 - Hyperparameter tuning using GridSearchCV
 - Compare with XGBoost / Gradient Boosting
-
-Handle high-price outliers
-
-Build a Streamlit web app for live predictions
+- Handle high-price outliers
+- Build a Streamlit web app for live predictions
